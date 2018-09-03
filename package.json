@@ -4,13 +4,17 @@
   "description": "",
   "main": "\u001b[D\u001b[D\u001b[Dserver\u001b[C\u001b[r",
   "dependencies": {
+    "chai": "^4.1.2",
     "express": "^4.16.3",
+    "mocha": "^5.2.0",
     "morgan": "^1.9.0",
     "uuid": "^3.3.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "chai-http": "^4.2.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha --exit",
     "start": "node server.js"
   },
   "keywords": [
