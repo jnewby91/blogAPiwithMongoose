@@ -4,6 +4,7 @@
   "description": "",
   "main": "\u001b[D\u001b[D\u001b[Dserver\u001b[C\u001b[r",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "chai": "^4.1.2",
     "express": "^4.16.3",
     "mocha": "^5.2.0",
